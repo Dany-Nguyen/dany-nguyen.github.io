@@ -1,0 +1,268 @@
+#current-state {
+	color: red;
+}
+
+section li {
+	list-style-type: none;
+	text-align: left;	
+}
+section li:before {
+	content: "→ ";
+}
+
+.navbar-brand {
+	font-family: "Roboto";
+}
+
+.navbar a {
+	text-decoration: none;
+	color: #333;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+html,
+body {
+	height: 100%;
+	margin-top:25px;
+}
+
+
+.row {
+	margin-left:0px;
+	margin-right:0px;
+}
+
+
+.lead {
+	text-align: justify;
+}
+#wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	/* Negative indent footer by its height */
+	margin: 0 auto -60px;
+	/* Pad bottom by footer height */
+	padding: 0 0 60px;
+}
+
+#footer {
+	height: 60px;
+	background-color: #f5f5f5;
+	margin-top:50px;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+.header::before {
+	content: "";
+	min-height: 600px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	z-index: -1;
+	background-image: url(../img/mtp.jpg);
+
+	display: block;
+	-webkit-filter: brightness(0.5);
+	-moz-filter: brightness(0.5);
+	-o-filter:  brightness(0.5);
+	-ms-filter:  brightness(0.5);
+	filter: brightness(0.5);
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
+.header {
+	display: block;
+	position: relative;
+	width: 100%;
+	min-height: 600px;
+	text-align: center;
+	color: white;
+
+}
+
+#wrap > .container {
+	padding: 60px 15px 0;
+}
+.container .credit {
+	margin: 20px 0;
+}
+
+#footer {
+	background-color:#414141
+}
+
+#footer a {
+	color:#efefef;
+}
+
+#contact {
+	line-height: 200%;
+	font-family: "Roboto";
+}
+
+#topNav {
+	z-index:-1;
+}
+
+#nav {
+	width: 100%;
+}
+
+#nav.affix-top {
+	position: absolute;
+	top:0;
+	left:0;
+	z-index:10;
+	height:54px;
+	background-color:transparent;
+	border:0;
+}
+
+#nav.affix {
+	position: fixed;
+	top: 0;
+	z-index:10;
+	-webkit-transition: all .6s ease-in-out;
+}
+
+#footer > .container {
+
+}
+
+@media (min-width: 767px) {
+	.navbar-nav.nav-justified > li{
+		float:none;
+	}
+}
+
+.navbar-nav {
+	margin: 1px 1px; 
+}  
+
+.navbar-toggle {
+	outline:0;
+}
+
+.divider {
+	height:50px;
+}
+
+.panel {
+	border-width:0;
+}
+
+@media (max-width: 768px) {
+	header {
+
+	}
+}
+
+.scroll-top {
+	position:fixed;
+	bottom:0;
+	right:6%;
+	z-index:100;
+	background: #f2f3f2;
+	font-size:24px;
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+}
+.scroll-top a:link,.scroll-top a:visited {
+	color:#222;
+} 
+
+section {
+	min-height: 400px;
+	height: auto !important;
+	height: 100%;
+	padding-top:100px;
+}
+
+.bg {
+	background: url('../img/callout.jpg') center 0 no-repeat fixed;
+
+	position: fixed;
+	width: 100%;
+	height: 350px; same height as jumbotron 
+	top:0;
+	left:0;
+	z-index: -1;
+}
+
+.jumbotron {
+	height: 350px;
+	color: white;
+	text-shadow: #444 0 1px 1px;
+	background:transparent;
+}
+
+
+.contenu::before {
+	content:"";
+	position: absolute;
+	left: 0;
+	right: 0;
+	z-index: -1;
+
+	background-image: url(../img/studies.jpg);
+	background-attachment: fixed; 
+	display: block;
+	width:100%;
+	min-height: 500px;
+	-webkit-background-size: cover; /* pour Chrome et Safari */
+	-moz-background-size: cover; /* pour Firefox */
+	-o-background-size: cover; /* pour Opera */
+	background-size: cover;
+
+	-webkit-filter: brightness(0.5) blur(5px);
+	-moz-filter: brightness(0.5) blur(5px);
+	-o-filter:  brightness(0.5) blur(5px);
+	-ms-filter:  brightness(0.5) blur(5px);
+	filter: brightness(0.5) blur(5px);
+}
+
+.content {
+	position: fixed;
+	left: 0;
+	right: 0;
+	z-index: 0;
+	color: white;
+}
+
+#education {
+	color: white;
+	
+}
+
+#education h2 {
+	/* color: #7C643E; */
+	line-height: 2px;
+	padding-top: 30px;
+}
+
+.year {
+	padding-top: 20px;
+	/* color: #7C643E; */
+}
+
+.bigger {
+	font-size: 48px;
+}
+
+.vcenter {
+	position: relative;
+	margin-top:10%;
+
+}
+
+.school {
+	color: #a9a9a9;
+
+}
