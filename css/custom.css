@@ -216,9 +216,9 @@ section {
 	.contenu {
 		background-image: url(../img/metallicgray.jpg);
 		background-attachment: fixed;
-		display: block;
+		display: inline-block;
 		/*min-height: 700px;*/
-		height: auto;
+		/*height: auto;*/
 	}
 }
 
@@ -246,13 +246,6 @@ section {
 
 .title {
 	padding-bottom: 20px;
-}
-.content {
-	position: fixed;
-	left: 0;
-	right: 0;
-	z-index: 0;
-	color: white;
 }
 
 #education {
