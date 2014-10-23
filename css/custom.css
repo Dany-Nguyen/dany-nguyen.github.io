@@ -210,24 +210,43 @@ section {
 	left: 0;
 	right: 0;
 	z-index: -1;
-
-	background-image: url(../img/studies.jpg);
-	background-attachment: fixed; 
-	display: block;
-	width:100%;
-	min-height: 500px;
-	-webkit-background-size: cover; /* pour Chrome et Safari */
-	-moz-background-size: cover; /* pour Firefox */
-	-o-background-size: cover; /* pour Opera */
-	background-size: cover;
-
-	-webkit-filter: brightness(0.5) blur(5px);
-	-moz-filter: brightness(0.5) blur(5px);
-	-o-filter:  brightness(0.5) blur(5px);
-	-ms-filter:  brightness(0.5) blur(5px);
-	filter: brightness(0.5) blur(5px);
 }
 
+@media (max-width: 767px) {
+	.contenu {
+		background-image: url(../img/metallicgray.jpg);
+		background-attachment: fixed;
+		display: block;
+		/*min-height: 700px;*/
+		height: auto;
+	}
+}
+
+@media (min-width: 768px) {
+	.contenu::before {
+		background-image: url(../img/studies.jpg);
+		background-attachment: fixed; 
+		display: block;
+		width:100%;
+		min-height: 500px;
+		-webkit-background-size: cover; /* pour Chrome et Safari */
+		-moz-background-size: cover; /* pour Firefox */
+		-o-background-size: cover; /* pour Opera */
+		background-size: cover;
+
+		-webkit-filter: brightness(0.5) blur(5px);
+		-moz-filter: brightness(0.5) blur(5px);
+		-o-filter:  brightness(0.5) blur(5px);
+		-ms-filter:  brightness(0.5) blur(5px);
+		filter: brightness(0.5) blur(5px);
+	}
+}
+
+
+
+.title {
+	padding-bottom: 20px;
+}
 .content {
 	position: fixed;
 	left: 0;
@@ -265,4 +284,11 @@ section {
 .school {
 	color: #a9a9a9;
 
+}
+
+#myface {
+	height: 200px; 
+	margin-top: 70px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px #888888;
 }
