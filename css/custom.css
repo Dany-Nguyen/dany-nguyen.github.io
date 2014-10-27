@@ -7,7 +7,7 @@ section li {
 	text-align: left;	
 }
 section li:before {
-	content: "→ ";
+	/*content: "→ ";*/
 }
 
 .navbar-brand {
@@ -284,4 +284,8 @@ section {
 	margin-top: 70px;
 	border-radius: 10px;
 	box-shadow: 10px 10px 5px #888888;
+}
+
+#projects {
+
 }
