@@ -14,6 +14,7 @@ section li:before {
 	font-family: "Roboto";
 }
 
+
 .navbar a {
 	text-decoration: none;
 	color: #333;
@@ -84,6 +85,7 @@ body {
 	min-height: 600px;
 	text-align: center;
 	color: white;
+	font-family: "Ubuntu","Lato", "Open Sans", "Arial";
 
 }
 
@@ -109,6 +111,10 @@ body {
 
 #topNav {
 	z-index:-1;
+}
+
+.navbar-inverse > a:hover {
+	color:red;
 }
 
 #nav {
@@ -226,6 +232,7 @@ section {
 	.contenu::before {
 		background-image: url(../img/studies.jpg);
 		background-attachment: fixed; 
+		
 		display: block;
 		width:100%;
 		min-height: 500px;
@@ -286,6 +293,15 @@ section {
 	box-shadow: 10px 10px 5px #888888;
 }
 
-#projects {
+#experiences {
+	font-size: 24px;
+}
 
+.dashed {
+border: none;
+border-top: dashed 2px #00CC33;
+color: #ffffff;
+background-color: #ffffff;
+margin-top: 100px;
+width: 50%;
 }
