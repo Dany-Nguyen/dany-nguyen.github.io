@@ -85,8 +85,12 @@ body {
 	min-height: 600px;
 	text-align: center;
 	color: white;
-	font-family: "Ubuntu","Lato", "Open Sans", "Arial";
+	font-family: "Ubuntu","Arial";
 
+}
+
+.header-button {
+	position: relative;
 }
 
 #wrap > .container {
@@ -223,19 +227,25 @@ section {
 		background-image: url(../img/metallicgray.jpg);
 		background-attachment: fixed;
 		display: inline-block;
+		font-size: 12px;
 		/*min-height: 700px;*/
 		/*height: auto;*/
 	}
+	.contenu h2,
+	.contenu h3,
+	.contenu h4 {
+font-size: 16px;	
+}
 }
 
 @media (min-width: 768px) {
 	.contenu::before {
 		background-image: url(../img/studies.jpg);
 		background-attachment: fixed; 
-		
+
 		display: block;
 		width:100%;
-		min-height: 500px;
+		min-height: 550px;
 		-webkit-background-size: cover; /* pour Chrome et Safari */
 		-moz-background-size: cover; /* pour Firefox */
 		-o-background-size: cover; /* pour Opera */
@@ -293,8 +303,14 @@ section {
 	box-shadow: 10px 10px 5px #888888;
 }
 
+#projects {
+	font-family: "Open Sans";
+}
+
 #experiences {
 	font-size: 24px;
+	background-color: #f3f3f3;
+	font-family: "Roboto";
 }
 
 .dashed {
@@ -304,4 +320,5 @@ color: #ffffff;
 background-color: #ffffff;
 margin-top: 100px;
 width: 50%;
+margin-bottom: 0;
 }
