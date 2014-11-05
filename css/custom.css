@@ -57,7 +57,7 @@ section li {
 	left: 0;
 	right: 0;
 	z-index: -1;
-	background-image: url(../img/fb/mtp.jpg);
+	background-image: url(../img/mtp.jpg);
 
 	display: block;
 /* 	-webkit-filter: brightness(0.5);
@@ -285,7 +285,7 @@ section {
 
 @media (min-width: 768px) {
 	.contenu::before {
-		background-image: url(../img/fb/studies.jpg);
+		background-image: url(../img/studies.jpg);
 		background-attachment: fixed; 
 		display: block;
 		width:100%;
