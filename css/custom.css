@@ -291,6 +291,12 @@ section {
 	padding-top: 2em;
 }
 
+.copyright {
+	background-color: #c0d6e4;
+	border: 1px #576d94 dashed;
+	box-shadow: 1px 1px 10px #555;
+}
+
 @media (min-width: 768px) {
 	.contenu::before {
 		background-image: url(../img/studies.jpg);
