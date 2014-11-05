@@ -295,6 +295,7 @@ section {
 	background-color: #c0d6e4;
 	border: 1px #576d94 dashed;
 	box-shadow: 1px 1px 10px #555;
+	
 }
 
 @media (min-width: 768px) {
@@ -310,11 +311,11 @@ section {
 		-o-background-size: cover; /* pour Opera */
 		background-size: cover;
 
-		-webkit-filter: brightness(0.5) blur(5px);
-		-moz-filter: brightness(0.5) blur(5px);
-		-o-filter:  brightness(0.5) blur(5px);
-		-ms-filter:  brightness(0.5) blur(5px);
-		filter: brightness(0.5) blur(5px);
+		-webkit-filter: brightness(0.5) blur(2px);
+		-moz-filter: brightness(0.5) blur(2px);
+		-o-filter:  brightness(0.5) blur(2px);
+		-ms-filter:  brightness(0.5) blur(2px);
+		filter: brightness(0.5) blur(2px);
 	}
 }
 
