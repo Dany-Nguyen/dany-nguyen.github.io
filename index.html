@@ -17,14 +17,14 @@
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
- <!-- Custom Fonts -->
- <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
- <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
- <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
- <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
- <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
- <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
- <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!-- Custom Fonts -->
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -33,7 +33,6 @@
 
 
     </head>
-
     <body>
 
         <!-- Navigation -->
@@ -83,14 +82,12 @@
                                 <br><i>This is my modus operandi.</i></p>
                             </div>
                             <div class="col-md-3 text-center col-lg-offset-1">
-
-                                <img src="img/danyfb.jpg" id="myface"/>
-
+                                <img src="img/danyfb.jpg" id="myface" class="img-responsive"/>
                             </div>
-                        </div>
-                        <!-- /.row -->
-                    </div>
-                    <!-- /.container -->
+                        </div>  <!-- /.row -->
+
+                    </div> <!-- /.container -->
+
                 </section>
 
                 <!-- Services -->
@@ -161,7 +158,6 @@
                                         <li><span class="glyphicon glyphicon-chevron-right"> </span> Database Management &amp; SQL</li>
                                         <li><span class="glyphicon glyphicon-chevron-right"> </span> Agile Methodologies</li>
                                         <li><span class="glyphicon glyphicon-chevron-right"> </span> Multi-agent Oriented Programming</li>
-                                        <li><span class="glyphicon glyphicon-chevron-right"> </span> Programming with Aspects</li>
                                         <li><span class="glyphicon glyphicon-chevron-right"> </span> LaTeX &amp; Beamer</li>
 
                                     </ul>
@@ -279,8 +275,8 @@
                         <div class="row">
                             <div class="col-md-1 logo"><img src="img/transit.PNG" alt="logoTransit"></div>
                             <div class="col-md-6">
-                                <h3>Transit Warehouse</h3>
-                                <p>Developed softwares and scripts to automate employee's tasks (for example a remote software updater and an invoice generator). Mostly in C#. <br>Worked on the GLPI : updated it, added plugins and increased ergonomics.</p>
+                                <h3>Transit Warehouse</h3> as IT intern
+                                <p>Developed softwares and scripts to automate employee's tasks (for example a remote software updater and an invoice generator). Mostly in C#. <br>Worked on the GLPI : updated it, added plugins and improved ergonomics. <br>It was also a life-changing experience as it was my first time working abroad, I had to adapt another culture and discover how Canadians work.</p>
                             </div>
                             <div class="col-md-2 year"><p>Feb 2012 - May 2012</p></div>
 
@@ -309,7 +305,6 @@
                 <div id="contact" class="container">
                     <div class="row">
                         <div class="col-md-3 col-md-offset-2 text-left">
-
                             <span style="font-size: 20px;">Invite me for a coffee</span> <span class="fa fa-coffee fa-fw bigger"></span>
                             <br><br>
                             <p>You're near me and you want to talk about a project, or say hello and chatting about our hobbies?</p>
@@ -360,19 +355,6 @@
         var posi = $(link).offset().top;
         $('body,html').animate({scrollTop:posi},700);
     });
-
-
-    // Closes the sidebar menu
-/*    $("#menu-close").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-
-    // Opens the sidebar menu
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });*/
 
     // Scrolls to the selected menu item on the page
     $(function() {
