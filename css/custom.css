@@ -120,9 +120,6 @@ filter: brightness(0.5); */
 	z-index:-1;
 }
 
-.navbar-inverse > a:hover {
-	color:red;
-}
 
 #nav {
 	width: 100%;
