@@ -29,10 +29,6 @@ section li {
 	text-align: left;	
 }
 
-section li:before {
-	/*content: "→ ";*/
-}
-
 .navbar-brand {
 	font-family: "Roboto";
 }
@@ -61,14 +57,14 @@ section li:before {
 	left: 0;
 	right: 0;
 	z-index: -1;
-	background-image: url(../img/mtp.jpg);
+	background-image: url(../img/fb/mtp.jpg);
 
 	display: block;
-	-webkit-filter: brightness(0.5);
-	-moz-filter: brightness(0.5);
-	-o-filter:  brightness(0.5);
-	-ms-filter:  brightness(0.5);
-	filter: brightness(0.5);
+/* 	-webkit-filter: brightness(0.5);
+-moz-filter: brightness(0.5);
+-o-filter:  brightness(0.5);
+-ms-filter:  brightness(0.5);
+filter: brightness(0.5); */
 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -86,7 +82,6 @@ section li:before {
 	font-family: "Ubuntu","Arial";
 
 }
-
 
 .header-button{
 	display:inline-block;
@@ -187,16 +182,6 @@ section {
 	padding-top:100px;
 }
 
-.bg {
-	background: url('../img/callout.jpg') center 0 no-repeat fixed;
-	position: fixed;
-	width: 100%;
-	height: 350px;
-	top:0;
-	left:0;
-	z-index: -1;
-}
-
 .jumbotron {
 	height: 350px;
 	color: white;
@@ -295,12 +280,12 @@ section {
 	background-color: #c0d6e4;
 	border: 1px #576d94 dashed;
 	box-shadow: 1px 1px 10px #555;
-	
+
 }
 
 @media (min-width: 768px) {
 	.contenu::before {
-		background-image: url(../img/studies.jpg);
+		background-image: url(../img/fb/studies.jpg);
 		background-attachment: fixed; 
 		display: block;
 		width:100%;
@@ -311,11 +296,11 @@ section {
 		-o-background-size: cover; /* pour Opera */
 		background-size: cover;
 
-		-webkit-filter: brightness(0.5) blur(2px);
-		-moz-filter: brightness(0.5) blur(2px);
-		-o-filter:  brightness(0.5) blur(2px);
-		-ms-filter:  brightness(0.5) blur(2px);
-		filter: brightness(0.5) blur(2px);
+/* 		-webkit-filter: brightness(0.5) blur(2px);
+-moz-filter: brightness(0.5) blur(2px);
+-o-filter:  brightness(0.5) blur(2px);
+-ms-filter:  brightness(0.5) blur(2px);
+filter: brightness(0.5) blur(2px); */
 	}
 }
 
