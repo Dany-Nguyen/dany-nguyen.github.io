@@ -293,11 +293,11 @@ section {
 		-o-background-size: cover; /* pour Opera */
 		background-size: cover;
 
-/* 		-webkit-filter: brightness(0.5) blur(2px);
+-webkit-filter: brightness(0.5) blur(2px);
 -moz-filter: brightness(0.5) blur(2px);
 -o-filter:  brightness(0.5) blur(2px);
 -ms-filter:  brightness(0.5) blur(2px);
-filter: brightness(0.5) blur(2px); */
+filter: brightness(0.5) blur(2px);
 	}
 }
 
